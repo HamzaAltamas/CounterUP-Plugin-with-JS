@@ -1,0 +1,52 @@
+/* CSS Variavbles */
+:root {
+  --body-bg: linear-gradient(
+    349deg,
+    rgba(255, 0, 121, 1) 0%,
+    rgba(0, 255, 235, 1) 100%
+  );
+  --white: #f1f1f1;
+  --nunito: "Nunito", sans-serif;
+}
+/* Common Css fo4r all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--nunito);
+  color: var(--white) !important;
+}
+/* CSS For Body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--body-bg);
+  min-height: 100vh;
+}
+/* counter-items-wrapper start */
+.counter-items-wrapper {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.counter-wrapper {
+  width: 33.3333333333333333%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+h2 {
+  text-align: center;
+}
